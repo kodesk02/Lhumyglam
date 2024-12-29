@@ -72,6 +72,44 @@ const Waxing = () => {
     },
   ];
 
+  const browsList = [
+    {
+      service: 'Microblading',
+      price: 'N55,000'
+    },
+    {
+      service: 'Combo',
+      price: 'N60,000'
+    },    {
+      service: 'Microshading',
+      price: 'N65,000'
+    },    {
+      service: 'Hybrid Brow',
+      price: 'N65,000'
+    },    {
+      service: 'Ombre',
+      price: 'N70,000'
+    },    {
+      service: 'Brow lamination',
+      price: 'N15,000'
+    },    {
+      service: 'Tint',
+      price: 'N10,000'
+    },    {
+      service: 'Brow threading',
+      price: 'N5,000'
+    },    {
+      service: 'Brow waxing',
+      price: 'N5,000'
+    },    {
+      service: 'Brow tweezing',
+      price: 'N5,000'
+    },    {
+      service: 'Brow grooming',
+      price: 'N2,000'
+    },
+  ]
+
   const piercing = [
     {
       service: "Nose",
@@ -200,6 +238,27 @@ const Waxing = () => {
             </span>
             <div className="pt-10 px-2">
               {priceList.map((item, index) => (
+                <div
+                  key={index}
+                  className="grid grid-cols-2 items-center space-y-4 gap-y-2"
+                >
+                  <span className="font-semibold text-gray-700">
+                    {item.service}
+                  </span>
+                  <span className="text-yellow-800 text-right">
+                    {item.price}
+                  </span>
+                  <hr className="col-span-2 border-t border-gray-300 mt-2" />
+                </div>
+              ))}
+            </div>
+          </div>
+          <div className="bg-[#fffbeb]/30 shadow-2xl backdrop-blur-xl p-10 rounded-lg">
+            <span className="text-center text-yellow-800 text-3xl">
+              Brows Price list
+            </span>
+            <div className="pt-10 px-2">
+              {browsList.map((item, index) => (
                 <div
                   key={index}
                   className="grid grid-cols-2 items-center space-y-4 gap-y-2"
