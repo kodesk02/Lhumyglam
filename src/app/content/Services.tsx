@@ -13,14 +13,18 @@ const Services = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5 p-16">
         <SideCard
-          content={"Achieve silky smooth skin with our expert waxing services tailored for all skin types."}
+          content={
+            "Achieve silky smooth skin with our expert waxing services tailored for all skin types."
+          }
           label={"price list"}
           icon={"mdi:cloth-outline"}
           title={"Waxing"}
           link={"/prices/waxing"}
         />
         <SideCard
-          content={"Enhance your style with our professional piercing services, tailored to your individuality."}
+          content={
+            "Enhance your style with our professional piercing services, tailored to your individuality."
+          }
           label={"price list"}
           icon={"lucide:dot"}
           title={"Piercing"}
@@ -28,10 +32,22 @@ const Services = () => {
         />
 
         <SideCard
-          content={"Enhance your natural beauty with our expertly applied lash extensions, tailoreed to suit your style. "}
+          content={
+            "Enhance your natural beauty with our expertly applied lash extensions, tailoreed to suit your style. "
+          }
           label={"price list"}
           icon={"game-icons:eyelashes"}
           title={"Lashes"}
+          link={"/prices/waxing"}
+        />
+
+        <SideCard
+          content={
+            "Enhance your natural beauty with our expertly shaped and styled eyebrows, tailored to complement your unique features."
+          }
+          label={"price list"}
+          icon={"game-icons:eyelashes"}
+          title={"Brow grooming"}
           link={"/prices/waxing"}
         />
       </div>
