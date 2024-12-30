@@ -46,7 +46,7 @@ const Services = () => {
             "Enhance your natural beauty with our expertly shaped and styled eyebrows, tailored to complement your unique features."
           }
           label={"price list"}
-          icon={"game-icons:eyelashes"}
+          icon={"mingcute:eyebrow-fill"}
           title={"Brow grooming"}
           link={"/prices/waxing"}
         />
