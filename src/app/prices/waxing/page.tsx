@@ -252,6 +252,13 @@ const Waxing = () => {
                 </div>
               ))}
             </div>
+            <a
+              href={"/"}
+              className="text-yellow-800 pt-2  flex items-center justify-end gap-3"
+            >
+              {"Go back"}
+              <Icon icon="weui:arrow-filled" width="12" height="24" />
+            </a>
           </div>
           <div id='brows' className="bg-[#fffbeb]/30 shadow-2xl backdrop-blur-xl p-10 rounded-lg">
             <span className="text-center text-yellow-800 text-3xl">
@@ -273,6 +280,13 @@ const Waxing = () => {
                 </div>
               ))}
             </div>
+            <a
+              href={"/"}
+              className="text-yellow-800  flex items-center justify-end gap-3"
+            >
+              {"Go back"}
+              <Icon icon="weui:arrow-filled" width="12" height="24" />
+            </a>
           </div>
           <div id='lashes' className="bg-[#fffbeb]/30 shadow-2xl backdrop-blur-xl p-10 rounded-lg">
             <span className="flex justify-center items-center text-yellow-800 text-3xl">
@@ -358,6 +372,13 @@ const Waxing = () => {
                 </div>
               ))}
             </div>
+            <a
+              href={"/"}
+              className="text-yellow-800  flex items-center justify-end gap-3"
+            >
+              {"Go back"}
+              <Icon icon="weui:arrow-filled" width="12" height="24" />
+            </a>
           </div>
        
         </div>

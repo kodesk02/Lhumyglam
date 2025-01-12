@@ -7,7 +7,7 @@ const Services = () => {
         Lhumy Glam Services
       </div>
       <div className="text-gray-500 text-center md:pb-4 md:pt-4 p-5 md:p-72 flex items-center justify-center">
-        We specialize in luxurious waxing, flawless lash enhancements, and
+        We specialize in semi-permanent brows, luxurious waxing, flawless lash enhancements, and
         precise piercing services that elevate your beauty. We focus on
         providing high-quality results with attention to detail and care.
       </div>
