@@ -14,12 +14,12 @@ const Services = () => {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-5 p-16">
         <SideCard
           content={
-            "Achieve silky smooth skin with our expert waxing services tailored for all skin types."
+            "Enhance your natural beauty with our expertly shaped and styled eyebrows, tailored to complement your unique features."
           }
           label={"price list"}
-          icon={"mdi:cloth-outline"}
-          title={"Waxing"}
-          link={"/prices/waxing"}
+          icon={"mingcute:eyebrow-fill"}
+          title={"Semi-permanent Brows"}
+          link={"/prices/waxing#brows"}
         />
         <SideCard
           content={
@@ -28,7 +28,7 @@ const Services = () => {
           label={"price list"}
           icon={"lucide:dot"}
           title={"Piercing"}
-          link={"/prices/waxing"}
+          link={"/prices/waxing#pierce"}
         />
 
         <SideCard
@@ -38,17 +38,17 @@ const Services = () => {
           label={"price list"}
           icon={"game-icons:eyelashes"}
           title={"Lashes"}
-          link={"/prices/waxing"}
+          link={"/prices/waxing#lashes"}
         />
 
         <SideCard
           content={
-            "Enhance your natural beauty with our expertly shaped and styled eyebrows, tailored to complement your unique features."
+            "Achieve silky smooth skin with our expert waxing services tailored for all skin types."
           }
           label={"price list"}
-          icon={"mingcute:eyebrow-fill"}
-          title={"Brow grooming"}
-          link={"/prices/waxing"}
+          icon={"mdi:cloth-outline"}
+          title={"Waxing"}
+          link={"/prices/waxing#waxing"}
         />
       </div>
     </div>

@@ -233,7 +233,7 @@ const Waxing = () => {
       <div className="flex flex-col lg:flex-row h-auto gap-5 p-10">
         <div className="w-full lg:w-1/2 space-y-6">
           <div className="bg-[#fffbeb]/30 shadow-2xl backdrop-blur-xl p-10 rounded-lg">
-            <span className="text-center text-yellow-800 text-3xl">
+            <span id='waxing' className="text-center text-yellow-800 text-3xl">
               Waxing Price list
             </span>
             <div className="pt-10 px-2">
@@ -253,7 +253,7 @@ const Waxing = () => {
               ))}
             </div>
           </div>
-          <div className="bg-[#fffbeb]/30 shadow-2xl backdrop-blur-xl p-10 rounded-lg">
+          <div id='brows' className="bg-[#fffbeb]/30 shadow-2xl backdrop-blur-xl p-10 rounded-lg">
             <span className="text-center text-yellow-800 text-3xl">
               Brows Price list
             </span>
@@ -274,7 +274,7 @@ const Waxing = () => {
               ))}
             </div>
           </div>
-          <div className="bg-[#fffbeb]/30 shadow-2xl backdrop-blur-xl p-10 rounded-lg">
+          <div id='lashes' className="bg-[#fffbeb]/30 shadow-2xl backdrop-blur-xl p-10 rounded-lg">
             <span className="flex justify-center items-center text-yellow-800 text-3xl">
               Studio Artist Price list
             </span>
@@ -308,28 +308,7 @@ const Waxing = () => {
           </div>
         </div>
         <div className="w-full lg:w-1/2 space-y-6">
-          <div className="bg-[#fffbeb]/30 shadow-2xl backdrop-blur-xl p-10 rounded-lg">
-            <span className="text-center text-yellow-800 text-3xl">
-              Piercing Price list
-            </span>
-            <div className="pt-10 px-2">
-              {piercing.map((item, index) => (
-                <div
-                  key={index}
-                  className="grid grid-cols-2 items-center space-y-4 gap-y-2"
-                >
-                  <span className="font-semibold text-gray-700">
-                    {item.service}
-                  </span>
-                  <span className="text-yellow-800 text-right">
-                    {item.price}
-                  </span>
-                  <hr className="col-span-2 border-t border-gray-300 mt-2" />
-                </div>
-              ))}
-            </div>
-          </div>
-          <div className="bg-[#fffbeb]/30 shadow-2xl backdrop-blur-xl p-10 rounded-lg">
+        <div className="bg-[#fffbeb]/30 shadow-2xl backdrop-blur-xl p-10 rounded-lg">
             <span className="flex justify-center items-center text-yellow-800 text-3xl">
               Head Artist Price list
             </span>
@@ -359,6 +338,28 @@ const Waxing = () => {
               <Icon icon="weui:arrow-filled" width="12" height="24" />
             </a>
           </div>
+          <div id='pierce' className="bg-[#fffbeb]/30 shadow-2xl backdrop-blur-xl p-10 rounded-lg">
+            <span className="text-center text-yellow-800 text-3xl">
+              Piercing Price list
+            </span>
+            <div className="pt-10 px-2">
+              {piercing.map((item, index) => (
+                <div
+                  key={index}
+                  className="grid grid-cols-2 items-center space-y-4 gap-y-2"
+                >
+                  <span className="font-semibold text-gray-700">
+                    {item.service}
+                  </span>
+                  <span className="text-yellow-800 text-right">
+                    {item.price}
+                  </span>
+                  <hr className="col-span-2 border-t border-gray-300 mt-2" />
+                </div>
+              ))}
+            </div>
+          </div>
+       
         </div>
       </div>
     </div>
